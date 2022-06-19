@@ -106,7 +106,7 @@ class Player():
 
 						#print(self.FOV)
 						self.hasHitWall = True
-						pygame.draw.line(screen,(200,50,0),(self.x2D,self.y2D),(self.rayXEnd,self.rayYEnd))
+						#pygame.draw.line(screen,(200,50,0),(self.x2D,self.y2D),(self.rayXEnd,self.rayYEnd))
 						self.rays.append(self.rayMaxLen)
 						if dire == self.direction:
 							self.vector = (self.rayXEnd,self.rayYEnd)
